@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532759493002",
+    "project_id": "beaconfirebase-5b22c",
+    "storage_bucket": "beaconfirebase-5b22c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532759493002:android:f70c74ba21d59d6327f073",
+        "android_client_info": {
+          "package_name": "com.example.beaconfinalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532759493002-4ii0dj6re7fitscc2dok68c60fvkiegb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG6IY7Nr6Gk8qcJD1YYdMKe4K5ZjNQ8-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532759493002-4ii0dj6re7fitscc2dok68c60fvkiegb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

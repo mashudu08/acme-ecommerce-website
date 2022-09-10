@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity"
+        map:mapType="normal"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/menu_bottom">
+
+        <RelativeLayout
+            android:id="@+id/btnExplore"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_location_on_24"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="5dp"
+                />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="Explore"
+                android:textColor="@color/white"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textSize="13dp"
+                android:gravity="center_horizontal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnSearchNavigate"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_navigation_24"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="5dp"
+                />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="Navigate"
+                android:textColor="@color/white"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textSize="13dp"
+                android:gravity="center_horizontal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btnSettings"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_baseline_person_pin_24"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="5dp"
+                />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="Profile"
+                android:textColor="@color/white"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textSize="13dp"
+                android:gravity="center_horizontal" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSearch"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="550dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#333333"
+        android:clickable="true"
+        app:backgroundTint="@color/app_primary"
+        app:srcCompat="@drawable/ic_baseline_search_24" />
+
+
+</RelativeLayout>
+
+
+
+
